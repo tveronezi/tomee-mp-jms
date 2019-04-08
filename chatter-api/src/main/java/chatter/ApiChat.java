@@ -1,4 +1,4 @@
-package crawler.spider;
+package chatter;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

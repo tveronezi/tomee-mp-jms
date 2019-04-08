@@ -1,4 +1,4 @@
-package crawler.spider;
+package chatter;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

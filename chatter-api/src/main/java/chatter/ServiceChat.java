@@ -1,4 +1,4 @@
-package crawler.spider;
+package chatter;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,11 +13,11 @@ public class ServiceChat {
 
     private final List<DtoMessage> messages = Collections.synchronizedList(new ArrayList<>());
 
-    public void addMessage(DtoMessage message) {
+    void addMessage(DtoMessage message) {
         this.messages.add(message);
     }
 
-    public List<DtoMessage> getMessages() {
+    List<DtoMessage> getMessages() {
         synchronized (this.messages) {
             return new ArrayList<>(this.messages);
         }

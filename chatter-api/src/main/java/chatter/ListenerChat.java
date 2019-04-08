@@ -1,4 +1,4 @@
-package crawler.spider;
+package chatter;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;

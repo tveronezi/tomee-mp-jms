@@ -1,9 +1,9 @@
-package crawler.spider;
+package chatter;
 
 import lombok.Data;
 
 @Data
-public class DtoMessage {
+class DtoMessage {
 
     private String content;
 
