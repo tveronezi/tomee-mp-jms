@@ -1,3 +1,10 @@
 = tomee-mp-jms
 
 Sample TomEE Microprofile with JMS
+
+== How to build and test it?
+
+
+```
+mvn clean install
+```
