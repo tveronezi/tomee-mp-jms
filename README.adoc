@@ -1,0 +1,3 @@
+= tomee-mp-jms
+
+Sample TomEE Microprofile with JMS

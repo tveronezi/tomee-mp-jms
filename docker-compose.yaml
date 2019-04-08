@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  amq:
+    image: veronezi/sample-amq:${STATIC_VERSION:-0.0.1-b6}
+
+  chatter:
+    image: veronezi/chatter:${VERSION:-latest}
+    ports:
+      - 80:8080
+
